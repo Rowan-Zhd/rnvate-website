@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Dark background -->
+  <rect width="64" height="64" fill="#060608"/>
+
+  <!-- Mint left accent bar — matches nav logo treatment -->
+  <rect x="0" y="0" width="5" height="64" fill="#04E98A"/>
+
+  <!-- "RN" — bold system font, crisp at all favicon sizes -->
+  <text
+    x="10" y="44"
+    font-family="'Arial Black', 'Arial Bold', Arial, sans-serif"
+    font-weight="900"
+    font-size="30"
+    letter-spacing="-1"
+    fill="#f7f7f9"
+  >RN</text>
+
+  <!-- Mint underline — echoes the V accent colour in the wordmark -->
+  <rect x="10" y="50" width="46" height="3.5" fill="#04E98A"/>
+</svg>
