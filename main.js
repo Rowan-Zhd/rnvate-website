@@ -151,15 +151,44 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.textContent = 'Sending…';
       btn.disabled = true;
 
-      setTimeout(() => {
-        form.reset();
-        form.querySelectorAll('.form-field').forEach(f => f.classList.remove('form-field--error'));
-        btn.innerHTML = 'Send Message <i data-lucide="arrow-right" width="14" height="14"></i>';
-        btn.disabled = false;
-        lucide.createIcons();
-        success.classList.add('show');
-        setTimeout(() => success.classList.remove('show'), 5000);
-      }, 1200);
+      // Collect form fields into JSON
+      const payload = {
+        firstName: form.firstName.value.trim(),
+        lastName:  form.lastName.value.trim(),
+        email:     form.email.value.trim(),
+        company:   form.company.value.trim(),
+        message:   form.message.value.trim(),
+        _subject:  'New Contact — RNVATE Website',
+        _template: 'table',
+        _captcha:  'false'
+      };
+
+      fetch('https://formsubmit.co/ajax/rawan.zhd@hotmail.com', {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body:    JSON.stringify(payload)
+      })
+        .then(res => res.json())
+        .then(() => {
+          form.reset();
+          form.querySelectorAll('.form-field').forEach(f => f.classList.remove('form-field--error'));
+          btn.innerHTML = 'Send Message <i data-lucide="arrow-right" width="14" height="14"></i>';
+          btn.disabled = false;
+          lucide.createIcons();
+          success.classList.add('show');
+          setTimeout(() => success.classList.remove('show'), 5000);
+        })
+        .catch(() => {
+          btn.innerHTML = 'Send Message <i data-lucide="arrow-right" width="14" height="14"></i>';
+          btn.disabled = false;
+          lucide.createIcons();
+          // Surface a brief error state on the button
+          btn.textContent = 'Failed — try again';
+          setTimeout(() => {
+            btn.innerHTML = 'Send Message <i data-lucide="arrow-right" width="14" height="14"></i>';
+            lucide.createIcons();
+          }, 3000);
+        });
     });
 
     form.querySelectorAll('.form-field__input').forEach(input => {
