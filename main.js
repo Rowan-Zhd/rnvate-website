@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
         _captcha:  'false'
       };
 
-      fetch('https://formsubmit.co/ajax/rawan.zhd@hotmail.com', {
+      fetch('https://formsubmit.co/ajax/rawan.z@rnvate.com', {
         method:  'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body:    JSON.stringify(payload)
