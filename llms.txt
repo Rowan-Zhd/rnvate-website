@@ -8,14 +8,25 @@ RNVATE partners with enterprise organizations to architect and deliver digital t
 
 ## Services
 
-- [Customer Experience Strategy](https://rnvate.com/#services): End-to-end customer experiences grounded in research and measurable outcomes — journey mapping, personas, user & market research, and voice-of-customer programs.
-- [Process Automation](https://rnvate.com/#services): Transforming legacy operations into intelligent workflows — RPA implementation, workflow optimization, systems integration, and change management.
-- [Release & QA Governance](https://rnvate.com/#services): Structured QA, UAT, and release governance frameworks that cut post-release defects and accelerate time-to-market in regulated, enterprise-grade environments.
-- [Service & Product Design](https://rnvate.com/#services): Digital products and services built on scalable design systems — UX/UI design, service blueprints, interactive prototyping, and design system architecture.
+- [Customer Experience Strategy](https://rnvate.com/services/customer-experience-strategy.html): End-to-end customer experiences grounded in research and measurable outcomes — journey mapping, personas, user & market research, and voice-of-customer programs.
+- [Process Automation](https://rnvate.com/services/process-automation.html): Transforming legacy operations into intelligent workflows — RPA implementation, workflow optimization, systems integration, and change management.
+- [Release & QA Governance](https://rnvate.com/services/release-qa-governance.html): Structured QA, UAT, and release governance frameworks that cut post-release defects and accelerate time-to-market in regulated, enterprise-grade environments.
+- [Service & Product Design](https://rnvate.com/services/service-product-design.html): Digital products and services built on scalable design systems — UX/UI design, service blueprints, interactive prototyping, and design system architecture.
+- [All services](https://rnvate.com/services/): Overview of RNVATE's digital transformation services.
+
+## Case studies
+
+- [Enterprise Digital Platform Delivery](https://rnvate.com/work/enterprise-digital-platform-delivery.html): Primary strategic partner to a $480B global energy company, owning end-to-end digital platform delivery from UX strategy through production release. Result: ~30% faster delivery across 7+ concurrent accounts.
+- [Digital Banking CX Transformation](https://rnvate.com/work/digital-banking-cx-transformation.html): End-to-end CX delivery across digital banking platforms serving 2M+ customers through a full platform migration under central-bank regulation. Result: 35% reduction in post-release defects.
+- [Product Strategy & Design Systems](https://rnvate.com/work/product-strategy-design-systems.html): Product and UX strategy across three concurrent logistics and e-commerce platforms, unified by a scalable design system built from scratch.
+- [BPO Platform Transformation](https://rnvate.com/work/bpo-platform-transformation.html): Digital and operational transformation across BPO and facilities platforms in the USA, GCC, and Europe. Result: ~20% fewer client escalations.
+- [All case studies](https://rnvate.com/work/): Overview of selected RNVATE engagements.
 
 ## Key pages
 
 - [Home](https://rnvate.com/): Company overview, services, expertise, and case studies.
+- [Services](https://rnvate.com/services/): Digital transformation services overview.
+- [Work](https://rnvate.com/work/): Case studies and selected engagements.
 - [Privacy Policy](https://rnvate.com/privacy.html): How RNVATE collects, uses, and protects information.
 - [Terms of Service](https://rnvate.com/terms.html): Terms governing use of rnvate.com.
 - [Cookie Policy](https://rnvate.com/cookies.html): How RNVATE uses cookies and tracking technologies.
