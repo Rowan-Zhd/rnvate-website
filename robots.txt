@@ -1,0 +1,10 @@
+# robots.txt for https://rnvate.com/
+User-agent: *
+Allow: /
+
+# Block utility/template pages with no search value
+Disallow: /li-cover.html
+Disallow: /li-logo.html
+Disallow: /og-thumbnail.html
+
+Sitemap: https://rnvate.com/sitemap.xml

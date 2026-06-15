@@ -3,8 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RNVATE — Elite Digital Transformation</title>
-  <meta name="description" content="We architect transformative digital strategies that propel Fortune 500 companies into the next era of innovation and growth." />
+  <title>RNVATE — Enterprise Digital Transformation Consultancy</title>
+  <meta name="description" content="RNVATE is an enterprise digital transformation consultancy delivering CX strategy, process automation, release & QA governance, and service design for clients across 12+ countries." />
+  <meta name="keywords" content="digital transformation consultancy, enterprise CX strategy, process automation, release and QA governance, service design, customer experience" />
+  <meta name="author" content="RNVATE" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="theme-color" content="#060608" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://rnvate.com/" />
 
   <!-- Favicon -->
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
@@ -12,7 +19,9 @@
   <!-- Open Graph / Social thumbnail -->
   <meta property="og:type"        content="website" />
   <meta property="og:url"         content="https://rnvate.com/" />
-  <meta property="og:title"       content="RNVATE — Elite Digital Transformation" />
+  <meta property="og:title"       content="RNVATE — Enterprise Digital Transformation Consultancy" />
+  <meta property="og:site_name"   content="RNVATE" />
+  <meta property="og:locale"      content="en_US" />
   <meta property="og:description" content="CX Strategy · Process Automation · Release & QA Governance · Service Design. Serving enterprise clients across 12+ countries." />
   <meta property="og:image"       content="https://rnvate.com/og-image.png" />
   <meta property="og:image:width" content="1200" />
@@ -20,15 +29,104 @@
 
   <!-- Twitter card -->
   <meta name="twitter:card"        content="summary_large_image" />
-  <meta name="twitter:title"       content="RNVATE — Elite Digital Transformation" />
+  <meta name="twitter:title"       content="RNVATE — Enterprise Digital Transformation Consultancy" />
   <meta name="twitter:description" content="CX Strategy · Process Automation · Release & QA Governance · Service Design." />
   <meta name="twitter:image"       content="https://rnvate.com/og-image.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- ══════════════════════════════════
+       STRUCTURED DATA (JSON-LD)
+  ══════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "ProfessionalService"],
+        "@id": "https://rnvate.com/#organization",
+        "name": "RNVATE",
+        "alternateName": "RNVATE Consulting",
+        "url": "https://rnvate.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://rnvate.com/#logo",
+          "url": "https://rnvate.com/og-image.png",
+          "width": 1200,
+          "height": 630,
+          "caption": "RNVATE"
+        },
+        "image": "https://rnvate.com/og-image.png",
+        "description": "RNVATE is an enterprise digital transformation consultancy delivering CX strategy, process automation, release & QA governance, and service & product design for enterprise clients worldwide.",
+        "foundingDate": "2026",
+        "slogan": "Pioneering the Future of Enterprise Digital Excellence",
+        "sameAs": [
+          "https://www.linkedin.com/company/rnvate/",
+          "https://www.instagram.com/rn.vate"
+        ],
+        "email": "rawan.z@rnvate.com",
+        "telephone": "+1-402-975-0973",
+        "areaServed": { "@type": "Place", "name": "Worldwide" },
+        "knowsAbout": [
+          "Customer Experience Strategy",
+          "Process Automation",
+          "Release and QA Governance",
+          "Service Design",
+          "Digital Transformation",
+          "Product Design"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "sales",
+            "email": "rawan.z@rnvate.com",
+            "telephone": "+1-402-975-0973",
+            "availableLanguage": ["English"]
+          },
+          {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "telephone": "+961-76-787-745",
+            "availableLanguage": ["English", "Arabic"]
+          }
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Digital Transformation Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Customer Experience Strategy", "description": "End-to-end customer experiences grounded in research, empathy, and measurable outcomes — journey mapping, personas, and voice-of-customer programs." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Process Automation", "description": "Transform legacy operations into intelligent workflows — RPA implementation, workflow optimization, and systems integration." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Release & QA Governance", "description": "Structured QA, UAT, and release governance frameworks that cut post-release defects and accelerate time-to-market." } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Service & Product Design", "description": "Digital products and services built on scalable design systems — UX/UI, service blueprints, and interactive prototyping." } }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://rnvate.com/#website",
+        "url": "https://rnvate.com/",
+        "name": "RNVATE",
+        "description": "Enterprise digital transformation consultancy.",
+        "publisher": { "@id": "https://rnvate.com/#organization" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://rnvate.com/#webpage",
+        "url": "https://rnvate.com/",
+        "name": "RNVATE — Enterprise Digital Transformation Consultancy",
+        "isPartOf": { "@id": "https://rnvate.com/#website" },
+        "about": { "@id": "https://rnvate.com/#organization" },
+        "primaryImageOfPage": { "@id": "https://rnvate.com/#logo" },
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -72,7 +170,7 @@
         </div>
 
         <div class="hero__title-block" data-reveal>
-          <h1 class="hero__title">RN<span class="hero__title-accent">V</span>ATE</h1>
+          <h1 class="hero__title">RN<span class="hero__title-accent">V</span>ATE<span class="sr-only"> — Enterprise Digital Transformation Consultancy</span></h1>
           <div class="hero__tagline-block">
             <p class="hero__tagline">
               Pioneering the Future of<br>
@@ -170,6 +268,7 @@
               <li class="svc-body__item">Persona Development</li>
               <li class="svc-body__item">Voice-of-Customer Programs</li>
             </ul>
+            <a href="services/customer-experience-strategy.html" class="svc-learn">Explore this service &rarr;</a>
           </div>
         </div>
       </div>
@@ -195,6 +294,7 @@
               <li class="svc-body__item">Systems Integration</li>
               <li class="svc-body__item">Change Management</li>
             </ul>
+            <a href="services/process-automation.html" class="svc-learn">Explore this service &rarr;</a>
           </div>
         </div>
       </div>
@@ -220,6 +320,7 @@
               <li class="svc-body__item">Defect Reduction Protocols</li>
               <li class="svc-body__item">Change &amp; Program Management</li>
             </ul>
+            <a href="services/release-qa-governance.html" class="svc-learn">Explore this service &rarr;</a>
           </div>
         </div>
       </div>
@@ -245,6 +346,7 @@
               <li class="svc-body__item">Interactive Prototyping</li>
               <li class="svc-body__item">Design System Architecture</li>
             </ul>
+            <a href="services/service-product-design.html" class="svc-learn">Explore this service &rarr;</a>
           </div>
         </div>
       </div>
@@ -292,8 +394,12 @@
           <div class="expertise__img-wrap">
             <img
               src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=85"
-              alt="RNVATE consultants"
+              alt="RNVATE digital transformation consultants collaborating in an enterprise strategy session"
               class="expertise__img"
+              loading="lazy"
+              decoding="async"
+              width="1200"
+              height="800"
             />
             <div class="expertise__img-caption">
               <strong>250+</strong>
@@ -337,7 +443,11 @@
       <div class="case-row__img">
         <img
           src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1200&q=85"
-          alt="Global Energy Company — Digital Platform Delivery"
+          alt="Enterprise digital platform delivery for a $480B global energy company in Riyadh"
+          loading="lazy"
+          decoding="async"
+          width="1200"
+          height="800"
         />
       </div>
       <div class="case-row__body">
@@ -345,6 +455,7 @@
           <p class="case-row__cat">$480B Global Energy Company · Energy · Riyadh</p>
           <h3 class="case-row__title">Enterprise Digital Platform Delivery</h3>
           <p class="case-row__tagline">Primary strategic partner to a $480B global energy company, owning end-to-end digital platform delivery across web and mobile — from UX strategy through staging and production release. Bridged product, UX, QA, and engineering to ensure design intent survives into production across complex, enterprise-grade environments.</p>
+          <a href="work/enterprise-digital-platform-delivery.html" class="case-link">Read case study &rarr;</a>
         </div>
         <div class="case-row__metrics">
           <div class="case-metric">
@@ -368,7 +479,11 @@
       <div class="case-row__img">
         <img
           src="https://images.unsplash.com/photo-1586724237569-f3d0c1dee8c6?w=1200&q=85"
-          alt="Regional Bank — Digital Banking CX"
+          alt="Digital banking CX transformation for a leading regional bank serving 2M+ customers in Saudi Arabia"
+          loading="lazy"
+          decoding="async"
+          width="1200"
+          height="800"
         />
       </div>
       <div class="case-row__body">
@@ -376,6 +491,7 @@
           <p class="case-row__cat">Leading Regional Bank · Banking · Saudi Arabia</p>
           <h3 class="case-row__title">Digital Banking CX Transformation</h3>
           <p class="case-row__tagline">Owned end-to-end CX delivery across enterprise digital banking platforms serving 2M+ retail and corporate customers. Led journey optimization, usability testing, and structured QA protocols while maintaining delivery continuity through a full-scale platform migration under central bank regulatory compliance.</p>
+          <a href="work/digital-banking-cx-transformation.html" class="case-link">Read case study &rarr;</a>
         </div>
         <div class="case-row__metrics">
           <div class="case-metric">
@@ -399,7 +515,11 @@
       <div class="case-row__img">
         <img
           src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=1200&q=85"
-          alt="GO.MEDIA — Product Strategy &amp; Design Systems"
+          alt="Product strategy and design systems for a European logistics and e-commerce group in Germany"
+          loading="lazy"
+          decoding="async"
+          width="1200"
+          height="800"
         />
       </div>
       <div class="case-row__body">
@@ -407,6 +527,7 @@
           <p class="case-row__cat">European Logistics Group · Logistics &amp; E‑Commerce · Germany</p>
           <h3 class="case-row__title">Product Strategy &amp; Design Systems</h3>
           <p class="case-row__tagline">Directed product and UX strategy across three concurrent logistics and e-commerce digital platforms. Introduced a scalable design system — component library, design tokens, and documentation — that unified workflows, reduced design-to-development handoff time, and eliminated design divergence across product streams.</p>
+          <a href="work/product-strategy-design-systems.html" class="case-link">Read case study &rarr;</a>
         </div>
         <div class="case-row__metrics">
           <div class="case-metric">
@@ -430,7 +551,11 @@
       <div class="case-row__img">
         <img
           src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=1200&q=85"
-          alt="National Facilities Direct — BPO Platform Transformation"
+          alt="BPO and facilities platform transformation for an enterprise provider across the USA, GCC, and Europe"
+          loading="lazy"
+          decoding="async"
+          width="1200"
+          height="800"
         />
       </div>
       <div class="case-row__body">
@@ -438,6 +563,7 @@
           <p class="case-row__cat">Enterprise BPO Provider · BPO &amp; Facilities · New York</p>
           <h3 class="case-row__title">BPO Platform Transformation</h3>
           <p class="case-row__tagline">Led digital and operational transformation across BPO and facilities service platforms for enterprise clients in retail and real estate across the USA, GCC, and Europe. Coordinated distributed teams across three continents, standardized workflows, and delivered usability improvements that accelerated service resolution and improved client satisfaction.</p>
+          <a href="work/bpo-platform-transformation.html" class="case-link">Read case study &rarr;</a>
         </div>
         <div class="case-row__metrics">
           <div class="case-metric">
@@ -539,25 +665,28 @@
         <p class="footer__logo">RNVATE</p>
         <p class="footer__tagline">Elite digital transformation consultancy powering the future of enterprise innovation.</p>
         <div class="footer__socials">
-          <a href="#" class="footer__social" aria-label="LinkedIn"><i data-lucide="linkedin"  width="15" height="15"></i></a>
-          <a href="#" class="footer__social" aria-label="Twitter"><i data-lucide="twitter"   width="15" height="15"></i></a>
-          <a href="#" class="footer__social" aria-label="YouTube"><i data-lucide="youtube"   width="15" height="15"></i></a>
+          <a href="https://www.linkedin.com/company/rnvate/" class="footer__social" aria-label="RNVATE on LinkedIn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/rn.vate" class="footer__social" aria-label="RNVATE on Instagram" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07zM12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.13 1.38C1.35 2.68.94 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.13.67.66 1.34 1.07 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.38.66-.67 1.07-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.13C21.32 1.35 20.65.94 19.86.63 19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg>
+          </a>
         </div>
       </div>
       <div class="footer__col">
         <p class="footer__col-title">Services</p>
         <ul class="footer__links">
-          <li><a href="#services" class="footer__link">Customer Experience Strategy</a></li>
-          <li><a href="#services" class="footer__link">Process Automation</a></li>
-          <li><a href="#services" class="footer__link">Release &amp; QA Governance</a></li>
-          <li><a href="#services" class="footer__link">Service &amp; Product Design</a></li>
+          <li><a href="services/customer-experience-strategy.html" class="footer__link">Customer Experience Strategy</a></li>
+          <li><a href="services/process-automation.html" class="footer__link">Process Automation</a></li>
+          <li><a href="services/release-qa-governance.html" class="footer__link">Release &amp; QA Governance</a></li>
+          <li><a href="services/service-product-design.html" class="footer__link">Service &amp; Product Design</a></li>
         </ul>
       </div>
       <div class="footer__col">
         <p class="footer__col-title">Company</p>
         <ul class="footer__links">
           <li><a href="#expertise"    class="footer__link">About Us</a></li>
-          <li><a href="#case-studies" class="footer__link">Case Studies</a></li>
+          <li><a href="work/index.html" class="footer__link">Case Studies</a></li>
           <li><a href="#"             class="footer__link">Insights</a></li>
           <li><a href="#"             class="footer__link">Careers</a></li>
         </ul>

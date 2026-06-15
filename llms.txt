@@ -1,0 +1,33 @@
+# RNVATE
+
+> RNVATE is an enterprise digital transformation consultancy delivering customer experience (CX) strategy, process automation, release & QA governance, and service & product design for enterprise clients across 12+ countries. Founded in 2026, RNVATE helps organizations turn legacy operations and complex digital platforms into measurable business outcomes — from UX strategy through staging and production release.
+
+## About
+
+RNVATE partners with enterprise organizations to architect and deliver digital transformation. Engagements span CX research and journey design, intelligent process automation, structured QA and release governance, and the design of digital products and services on scalable design systems. Past work includes enterprise digital platform delivery for a $480B global energy company, digital banking CX for a regional bank serving 2M+ customers, product strategy and design systems for a European logistics and e-commerce group, and BPO platform transformation across the USA, GCC, and Europe.
+
+## Services
+
+- [Customer Experience Strategy](https://rnvate.com/#services): End-to-end customer experiences grounded in research and measurable outcomes — journey mapping, personas, user & market research, and voice-of-customer programs.
+- [Process Automation](https://rnvate.com/#services): Transforming legacy operations into intelligent workflows — RPA implementation, workflow optimization, systems integration, and change management.
+- [Release & QA Governance](https://rnvate.com/#services): Structured QA, UAT, and release governance frameworks that cut post-release defects and accelerate time-to-market in regulated, enterprise-grade environments.
+- [Service & Product Design](https://rnvate.com/#services): Digital products and services built on scalable design systems — UX/UI design, service blueprints, interactive prototyping, and design system architecture.
+
+## Key pages
+
+- [Home](https://rnvate.com/): Company overview, services, expertise, and case studies.
+- [Privacy Policy](https://rnvate.com/privacy.html): How RNVATE collects, uses, and protects information.
+- [Terms of Service](https://rnvate.com/terms.html): Terms governing use of rnvate.com.
+- [Cookie Policy](https://rnvate.com/cookies.html): How RNVATE uses cookies and tracking technologies.
+
+## Expertise
+
+Industry specializations: Financial Services; Healthcare & Life Sciences; Manufacturing; Retail & E-Commerce; Telecommunications; Energy & Utilities. Approach: Discovery & Strategy, Design & Architecture, and Implementation & Scale.
+
+## Contact
+
+- Email: rawan.z@rnvate.com
+- Phone (US): +1 (402) 975-0973
+- Phone (LB): +961 76 787 745
+- LinkedIn: https://www.linkedin.com/company/rnvate/
+- Instagram: https://www.instagram.com/rn.vate
