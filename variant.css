@@ -1,0 +1,151 @@
+/* ============================================================
+   RNVATE — VARIANT OVERRIDES
+   Layered on top of styles.css. Implements audit fixes #2–#16.
+   Loaded after styles.css so these rules win.
+   ============================================================ */
+
+/* ---- #15 Contrast: lift the dimmest greys one step ---- */
+:root {
+  --muted:  #b6b6cc;   /* was #9898b2 */
+  --dimmer: #8d8da6;   /* was #6a6a82 */
+}
+
+/* ---- #12 Cursor: restore the native pointer (drop custom JS cursor) ---- */
+body, a, [data-svc], .svc-row__head { cursor: auto !important; }
+button, .btn, .nav__cta, .form__btn, a[href] { cursor: pointer !important; }
+.cursor-dot, .cursor-ring { display: none !important; }
+
+/* ============================================================
+   #2 / #5  HERO REDESIGN — content in the top third, real CTA
+   ============================================================ */
+.hero--v2 {
+  justify-content: flex-start;      /* was flex-end — content now sits high */
+  padding: 132px 0 80px;
+  min-height: auto;
+}
+.hero--v2 .hero__inner { width: 100%; }
+.hero--v2 .hero__top { padding-top: 0; }
+
+/* Decorative wordmark: keep as texture, no longer dominates */
+.hero--v2 .hero__bg-word {
+  font-size: clamp(120px, 20vw, 300px);
+  top: 38%;
+  opacity: 0.45;
+}
+
+.hero__title-v2 {
+  font-family: var(--f-display);
+  font-weight: 600;
+  font-size: clamp(34px, 5.2vw, 72px);
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  margin: 26px 0 0;
+  max-width: 16ch;
+}
+.hero__title-v2 .mint { color: var(--mint); }
+
+.hero__lead-v2 {
+  font-family: var(--f-body);
+  font-size: clamp(15px, 1.35vw, 19px);
+  line-height: 1.6;
+  color: var(--muted);
+  max-width: 58ch;
+  margin: 22px 0 0;
+}
+.hero__lead-v2 strong { color: var(--white); font-weight: 600; }
+
+.hero__cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin: 34px 0 8px;
+}
+
+/* Reusable button system (#5 primary button, #14 consistent CTA) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--f-display);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  padding: 15px 26px;
+  border-radius: 8px;
+  transition: transform .25s var(--ease), background .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+.btn i, .btn svg { transition: transform .25s var(--ease); }
+.btn--primary {
+  background: var(--mint);
+  color: #04130c;
+  box-shadow: 0 0 0 rgba(4,233,138,0);
+}
+.btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px -12px var(--mint-glow);
+}
+.btn--primary:hover i { transform: translate(2px, -2px); }
+.btn--ghost {
+  background: transparent;
+  color: var(--white);
+  border: 1px solid var(--line-bright);
+}
+.btn--ghost:hover { border-color: var(--mint); color: var(--mint); transform: translateY(-2px); }
+
+.hero--v2 .hero__stats {
+  margin-top: 40px;
+  border-top: 1px solid var(--line);
+  padding-top: 34px;
+}
+.hero__qualifier {
+  margin: 18px 0 0;
+  font-size: 13px;
+  color: var(--dimmer);
+  letter-spacing: 0.01em;
+}
+
+/* ============================================================
+   #7  MOBILE MENU — surface the primary CTA inside the open menu
+   ============================================================ */
+.nav__link--menu-cta { display: none; }   /* hidden on desktop (separate nav__cta button shows) */
+
+@media (max-width: 768px) {
+  .nav__links .nav__link--menu-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 6px;
+    padding: 13px 22px;
+    background: var(--mint);
+    color: #04130c;
+    border-radius: 8px;
+    font-family: var(--f-display);
+    font-weight: 600;
+    align-self: stretch;
+    justify-content: center;
+  }
+  .hero--v2 { padding-top: 104px; }
+  .hero__cta-row .btn { flex: 1 1 auto; justify-content: center; }
+}
+
+/* ============================================================
+   #11  SERVICES ACCORDION — give the empty desktop column purpose
+   ============================================================ */
+.services__sub { color: var(--muted); }
+
+/* ============================================================
+   #16  Honeypot field — visually hidden, catches bots
+   ============================================================ */
+.form-hp {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px; height: 1px;
+  overflow: hidden;
+}
+
+/* ---- Light-mode parity for new hero text ---- */
+body.light .hero__title-v2 { color: #0d0d12; }
+body.light .hero__lead-v2 { color: #3a3a48; }
+body.light .hero__lead-v2 strong { color: #0d0d12; }
+body.light .btn--ghost { color: #0d0d12; border-color: rgba(0,0,0,0.18); }
