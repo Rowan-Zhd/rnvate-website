@@ -3,3 +3,19 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.log
+
+# Internal RNVATE folders. Never push to public repo.
+clients/
+email-templates/
+docs/
+framer/
+_templates/
+BRAND.md
+SEO-AUDIT.md
+
+# Brand-asset render templates and exports (not part of the live site).
+li-cover.html
+li-cover.png
+li-logo.html
+li-logo.png
+og-thumbnail.html
