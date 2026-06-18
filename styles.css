@@ -138,10 +138,10 @@ body:has(button:hover) .cursor-ring {
   font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 0.14em;
-  color: var(--white);
+  color: var(--mint);
 }
 
-.nav__logo span { color: var(--mint); }
+.nav__logo span { color: var(--white); }
 
 .nav__links {
   display: flex;
