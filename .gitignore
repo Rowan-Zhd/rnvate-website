@@ -19,3 +19,12 @@ li-cover.png
 li-logo.html
 li-logo.png
 og-thumbnail.html
+
+# internal + deploy helpers (never push)
+reapply_all.py
+reapply_log.txt
+push_log.txt
+push_updates.bat
+deploy_*.bat
+deploy_log*.txt
+revert_log.txt
