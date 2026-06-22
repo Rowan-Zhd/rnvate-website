@@ -19,3 +19,7 @@ li-cover.png
 li-logo.html
 li-logo.png
 og-thumbnail.html
+
+# Local deploy helpers (not part of the live site)
+push_updates.bat
+push_log.txt
