@@ -28,3 +28,8 @@ push_updates.bat
 deploy_*.bat
 deploy_log*.txt
 revert_log.txt
+
+# internal + deploy helpers (never push)
+add_insights_nav.py
+navadd_log.txt
+navadd.bat
